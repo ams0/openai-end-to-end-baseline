@@ -34,6 +34,22 @@ msbuild.wrn
 # Visual Studio 2015
 .vs/
 
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+terraform.tfplan.*
+.terraformrc
+terraform.rc
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
 appgw.key
 appgw.pfx
 appgw.crt
